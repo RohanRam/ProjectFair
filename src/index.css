@@ -1,0 +1,64 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Rochester&display=swap');
+
+*
+{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Montserrat", serif;
+  letter-spacing: 0.1rem;
+}
+
+.h1-head
+{
+  font-family: "Rochester", serif;
+  font-size: 50px;
+  letter-spacing: 0.2rem;
+}
+.h5-head
+{
+  font-size: 15px;
+  letter-spacing: 0.05;
+}
+
+.mdl h3
+{
+  font-size: 1rem;
+  font-weight: 800;
+}
+
+.mdl span
+{
+  font-size: 0.9rem;
+  font-weight: 500;
+
+}
+
+.star
+{
+  color: gold;
+}
+
+.box
+{
+  box-shadow: 1px 1px 5px 5px rgba(0, 0, 0, 0.2);
+  border-radius: 50px;
+  width: 60%;
+}
+
+.card:hover
+{
+  box-shadow: 1px 1px 5px 5px rgba(0, 0, 0, 0.2);
+  /* box-shadow: 1px 1px 5px 5px #D9EAFD; */
+  transform: scale(1.10);
+  transition: 0.3s ease;
+  
+
+}
+.btn:hover
+{
+
+  box-shadow: 1px 1px 5px 5px rgba(0, 0, 0, 0.2);
+
+}
